@@ -1,0 +1,10 @@
+
+div > h2
+{
+	/* color: red; 
+	font-size: 35px;*/
+}
+input[type=text],[type=tel]
+{
+	border:solid red;
+}

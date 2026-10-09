@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Input</title>
+</head>
+<body>
+<form action="form.html" method="POST" enctype="multipart/form-data" autocomplete="on" novalidate>
+	<h2>Input Types</h2>
+	<br>
+	<label>Enter Name</label>
+	<input step="1" type="text" value="Amit" name="" placeholder="Enter Name">
+	<br><br>
+	<label>Enter Password</label>
+	<input type="password" name="" placeholder="Enter Password">
+	<br><br>
+	<label>Enter Email</label>
+	<input style="2" type="email" placeholder="Enter Valid Email" name="">
+	<br><br>
+	<label>Enter Number/Age</label>
+	<input type="number" placeholder="Enter Number" name="" min="1" max="100">
+	<br><br>
+	<label>Enter Tel</label>
+	<input type="tel" placeholder="Enter Mobile Number" name="" maxlength="10" minlength="10">
+	<br><br>
+	<label>URL</label>
+	<input type="url" placeholder="Enter URL" name="">
+	<br><br>
+	<label>Search</label>
+	<input type="search" placeholder="Enter Name" name="">
+	<br><br>
+	<label>DOB</label>
+	<input type="date" name="">
+	<br><br>
+	<label>Time</label>
+	<input type="time" name="">
+	<br><br>
+	<label>Date/Time</label>
+	<input type="datetime-local" name="">
+	<br><br>
+	<label>Month</label>
+	<input type="month" name="">
+	<br><br>
+	<label>Week</label>
+	<input type="week" name="">
+	<br><br>
+	<label style="color: #1098b0">Color</label>
+	<input type="color" name="">
+	<br><br>
+	<label>Range</label>
+	<input type="range" name="" min="0" max="100">
+	<br><br>
+	<label>Subject</label>
+	<input type="checkbox" name="">HTML
+	<input type="checkbox" name="">CSS
+	<input type="checkbox" name="">JS
+	<br><br>
+	<label>Gender</label>
+	<input type="radio" name="gender">Male
+	<input type="radio" name="gender">Female
+	<br><br>
+	<label>Image/Video</label>
+	<input type="file" name="">
+	<br><br>
+	<label>Hidden</label>
+	<input type="hidden" name="" value="101">
+	<br><br>
+	<label>Image Button</label>
+	<input type="image" src="4.jpg" height="200" width="200" name="">
+	<br><br>
+	<input type="button" name="">
+	<input type="submit" value="Save" name="">
+	<button type="button" onclick="alert('Hello')">Add</button>
+	<input type="reset" value="Clear" name="">
+	<button>Cancel</button>
+	<br><br>
+	<label>Enter Address</label>
+	<textarea name="" cols="" rows=""></textarea>
+	<br><br>
+	<label>Subject</label>
+	<select>
+		<option>Select Subject</option>
+		<option>Python</option>
+		<option disabled >123</option>
+	</select>
+	<br><br>
+	<label>Group Select</label>
+	<select>
+		<optgroup label="Program">
+			<option>Java</option>
+			<option>Python</option>
+		</optgroup>
+		<optgroup label="Frontend">
+			<option>HTML</option>
+			<option>CSS</option>
+		</optgroup>
+	</select>
+	<br><br>
+	<input list="languages">
+
+<datalist id="languages">
+
+<option value="Python">
+
+<option value="Java">
+
+<option value="PHP">
+	<option value="JS"></option>
+	<option value="HTML"></option>
+	<option value="CSS"></option>
+
+</datalist>
+<br><br>
+<fieldset>
+	<legend>
+		Programming Lang
+	</legend>
+</fieldset>
+<br><br>
+<output>
+	2000
+</output>
+
+</form>
+</body>
+</html>

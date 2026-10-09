@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Page</title>
+	<style type="text/css">
+		@keyframes move 
+{ from 
+
+{ 
+transform: translateX(0); 
+
+} 
+to 
+
+{ 
+transform: translateX(300px); 
+} 
+}
+input[type=reset]
+{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: move;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+	</style>
+</head>
+<body style="background-image: url(5.jpg);background-size:cover; ;font-family: Bookman Old Style;">
+	<div style="border: solid 2px white;margin:20px;padding: 30px;margin-left: 500px;border-radius: 10px;background-color: white;justify-content:center;">
+	<form action="" method="">
+		
+		<h2 style="text-align: center;">Signup</h2>
+		<br>
+		<label style="font-size: 20px">Name</label>
+		<input type="text" placeholder="Enter Name" name="" required="" style="width: 100%;padding: 10px;box-sizing: border-box;">
+		<br><br>
+		<label style="font-size: 20px">Address</label>
+		<textarea  name="" cols="" rows="" placeholder="Enter Address" style="width: 100%;padding: 10px;box-sizing: border-box;resize: horizontal;"></textarea>		
+		<br><br>
+		<label style="font-size: 20px">Contact</label>
+		<input type="tel" maxlength="10" minlength="10" name="" required="" placeholder="Enter Number"style="width: 100%;padding: 10px;box-sizing: border-box;">
+		<br><br>
+		<label style="font-size: 20px">Email</label>
+		<input type="email" placeholder="Enter Email" name="" style="width: 100%;padding: 10px;box-sizing: border-box;">
+		<br><br>
+		<label style="font-size: 20px">Password</label>
+		<input type="password" name="" placeholder="Enter Password" style="width: 100%;padding: 10px;box-sizing: border-box;">
+		<br><br>
+		<input type="submit" value="Signup" name="" style="padding: 10px;background-color: orange;color:white">
+		<input type="reset" value="Cancel" name="" >
+	</form>
+</div>
+</body>
+</html>
